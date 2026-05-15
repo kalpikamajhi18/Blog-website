@@ -1,5 +1,6 @@
 import { ArrowRight, ChevronDown, ShoppingCart } from 'lucide-react'
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
   return (
@@ -20,13 +21,13 @@ const Navbar = () => {
   
     <ul className="flex items-center gap-9 text-[15px] text-neutral-700 font-medium">
       <li className="flex items-center gap-1.5 cursor-pointer">
-        Home
+        <Link to="/">Home </Link>
         <ChevronDown size={18} />
       </li>
-      <li className="cursor-pointer">Articles</li>
-      <li className="cursor-pointer">Catagories</li>
-      <li className="cursor-pointer">About</li>
-      <li className="cursor-pointer">Shop</li>
+      <li className="cursor-pointer"> <Link to="Articles">Articles </Link></li>
+      <li className="cursor-pointer"> <Link to="Categories">Catagories </Link></li>
+      <li className="cursor-pointer"> <Link to="About">About </Link></li>
+      <li className="cursor-pointer"> <Link to="Shop">Shop</Link></li>
     </ul>
 
    
@@ -38,10 +39,10 @@ const Navbar = () => {
       </div>
 
       
-      <button className="bg-black text-white px-4 py-3 rounded-xl text-[15px] font-semibold flex items-center gap-2 hover:bg-gray-900 transition">
-        Contact
+     <Link to="Contact"> <button className="bg-black text-white px-4 py-3 rounded-xl text-[15px] font-semibold flex items-center gap-2 hover:bg-gray-900 transition">
+        Contact 
        <ArrowRight />
-      </button>
+      </button></Link>
 
     </div>
   </nav>

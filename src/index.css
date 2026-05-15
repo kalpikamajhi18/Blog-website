@@ -1,1 +1,18 @@
 @import "tailwindcss";
+
+@font-face {
+    font-family: one;
+    src: url(/src/assets/fonts/67b8e28704a16f2783389ccf_Aspekta-600.ttf);
+}
+@font-face {
+    font-family:two ;
+    src: url(/src/assets/fonts/download);
+}
+@font-face {
+    font-family: three;
+    src: url(/src/assets/fonts/jizBRFtNs2ka5fXjeivQ4LroWlx-6zUTjg.woff2);
+}
+@font-face {
+    font-family: four;
+    src: url(/src/assets/fonts/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2);
+}

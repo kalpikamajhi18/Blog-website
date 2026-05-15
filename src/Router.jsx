@@ -14,8 +14,8 @@ import MainOutlet from "./MainOutlet";
           {index:true, element:<Homepage/>},
            { path:"Articles", element:<Articles/> },
             { path:"Categories", element:<Categories/> },
-            {  path:"/About",  element:<About/>},
-               { path:"/Shop", element:<Shop/>},
+            {  path:"About",  element:<About/>},
+               { path:"Shop", element:<Shop/>},
           {  path:"Contact",element:<Contact/> }
         ]
     }
